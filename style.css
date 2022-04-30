@@ -7,31 +7,36 @@ body {
 * {
   box-sizing: border-box;
 }
-.left-main,
-.right-main {
-  width: 50%;
+.left-main{
+  width: 50vw;
   background: violet;
 }
+
+.right-main{
+  width: 50vw;
+  background-color: violet;
+}
+
 .top,
 .middle,
 .last {
   height: 33%;
   width: 100%;
-  padding: 20px;
-  gap: 20px;
+
 }
 
-.top{
+.top {
   display: flex;
   align-items: flex-start;
 }
 
-.middle{
+.middle {
   display: flex;
+  gap: 20px;
   align-items: center;
 }
 
-.last{
+.last {
   display: flex;
   align-items: flex-end;
 }
@@ -40,10 +45,13 @@ body {
 .middle-right {
   width: 50%;
   height: 100%;
-  gap: 20px;
-  margin: 10px;
+  border-radius: 6px;
+  border-style: none;
 }
-.middle-right{
+.middle-left{
+  justify-content: flex-start;
+}
+.middle-right {
   justify-content: flex-end;
 }
 
