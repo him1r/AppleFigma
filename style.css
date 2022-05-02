@@ -7,9 +7,26 @@ body {
 * {
   box-sizing: border-box;
 }
+
 .left-main {
+  display: flex;
+  justify-content: flex-start;
   width: 50vw;
-  background: violet;
+
+  background: #71d4b4;
+}
+
+h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  text-decoration: none;
+  text-align: start;
+  color: #6c5d5b;
+  display: flex;
+  align-items: flex-end;
+  font-size: 108px;
+  padding: 20px;
+  padding-left: 10px;
+  margin:0px;
 }
 
 .right-main {
@@ -18,7 +35,7 @@ body {
   flex-direction: column;
   gap: 20px;
   justify-content: space-between;
-  /* background-color: violet; */
+  /* background-color: #71D4B4; */
 }
 
 .top,
@@ -31,7 +48,7 @@ body {
 .top {
   display: flex;
   align-items: flex-start;
-  background-color: violet;
+  background-color: #71d4b4;
 }
 
 .middle {
@@ -43,14 +60,14 @@ body {
 .last {
   display: flex;
   align-items: flex-end;
-  background-color: violet;
+  background-color: #71d4b4;
 }
 
 .middle-left,
 .middle-right {
   width: 50%;
   height: 100%;
-  background-color: violet;
+  background-color: #71d4b4;
 }
 .middle-left {
   justify-content: flex-start;
@@ -65,6 +82,7 @@ body {
   height: 100%;
   width: 100%;
   gap: 20px;
+  background-color: #6c5d5b;
 }
 
 /* .right-top,
@@ -72,7 +90,7 @@ body {
 .right-bottom {
   position: relative;
   display: flexbox;
-  background: violet;
+  background: #71D4B4;
   justify-content: flex-end;
   width: 50%;
   height: 33%;
